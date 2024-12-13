@@ -22,7 +22,7 @@ const data = [
       id:2,
         title: "Simple Calculator Project",
         desc: "A basic HTML CSS and Typescript calculator for performing simple calculation",
-        img : "/bluecal.jpg",
+        img : "/calculator.jpg",
         tags: ["HTML", "Node", "CSS", "Typescript"],   
     },
     {
