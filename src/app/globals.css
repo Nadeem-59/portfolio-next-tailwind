@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    color: rgb(209, 73, 209);
+    background-color: black;
+  }
+}
+@hero.tsx style={{ backgroundSize: "35%" }}
+@layer components {
+     .menuLink {
+      @apply cursor-pointer hover:text-[#c5c5c5];
+     }
+
+     .tags{background-color:blue;
+           margin-right: 0.5rem;
+           margin-top: 0.5rem;
+           padding: 3px 10px;
+           display: inline-block;
+           color: white;
+           font-size: 12px;
+    }
+
+    .tags:last-child {
+      margin-right: 0;
+    }
+    .tags:nth-child(2){
+      background-color: rgb(57, 10, 100);
+    }
+    
+    .tags:nth-child(3){
+      background-color: green;
+    }
+
+    .tags:nth-child(4){
+      background-color:red;
+    }
+
+}
